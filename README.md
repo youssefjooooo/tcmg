@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+==========> Pages:
+الرئيسية
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1-419&t=bWaQrcVtmbFJd9Zg-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=685%3A2587
 
-## Getting Started
+من نحن
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1045-8816&t=UQxJ4d2CkTXDV8BT-1&scaling=min-zoom&page-id=1%3A2685
 
-First, run the development server:
+الخدمات القانونية  
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1015-10346&t=N3Iho9GuyLR3ccUe-1&scaling=min-zoom&page-id=993%3A7878
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+توكيل محامي
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=993-2379&t=YDhtZOkgqjxvSFiB-1&scaling=min-zoom&page-id=977%3A4611
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+الاستشارات القانونية
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=2-16152&t=mPaNcz21IqccWZUi-1&scaling=scale-down&page-id=2%3A16151&starting-point-node-id=2%3A16152
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+تأسيس الشركات
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1162-6985&t=UECMgKFxv4T5lOqt-1&scaling=min-zoom&page-id=902%3A5585
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+انضم الينا
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1045-7069&t=T2xxvwYKLySiKWG3-0&scaling=min-zoom&page-id=1%3A2686
 
-## Learn More
+اسال محامي
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?page-id=450%3A736&node-id=1021-4381&viewport=1612%2C663%2C0.11&t=GDzhoGOXXaLz2Lh0-1&scaling=min-zoom&starting-point-node-id=1021%3A4381
 
-To learn more about Next.js, take a look at the following resources:
+الفروع
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=845-22114&t=S8HesYpAdViyBQYY-1&scaling=min-zoom&page-id=559%3A758
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+صفحة التدريب
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1162-5583&t=T2xxvwYKLySiKWG3-0&scaling=min-zoom&page-id=1%3A2686
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+صفحة التوظيف
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1045-7632&t=Uilje6WReRKZpu6K-1&scaling=min-zoom&page-id=1%3A2686
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+صفحة العلاقات الاستراتيجية
+https://www.figma.com/proto/mliM5uv88E8m4FtKpDhtKB/TCMG-WEBSITE?node-id=1162-5584&t=T2xxvwYKLySiKWG3-0&scaling=min-zoom&page-id=1%3A2686

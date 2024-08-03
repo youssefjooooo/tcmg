@@ -2,7 +2,7 @@
     background-color: var(--main);
     color: var(--font);
     width: 100%;
-    padding: 100px;
+    padding: 80px;
     direction: rtl;
     letter-spacing: 1px;
     font-family: janna reg;
@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.topSection a:hover {
+.footer a:hover {
     opacity: 80%;
 }
 
@@ -38,14 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 80px 0px;
+    margin: 50px 0px;
 }
 
 .midSection ul {
     gap: 5px;
     display: flex;
     /* align-items: center; */
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     /* background-color: red; */
 }

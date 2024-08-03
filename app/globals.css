@@ -9,11 +9,23 @@
     box-sizing: border-box;
     direction: rtl;
     font-family: janna reg;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 ::selection {
     background-color: var(--font);
     color: var(--main);
+}
+
+::-webkit-scrollbar {
+    background-color: var(--font);
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main);
 }
 
 @font-face {
@@ -45,7 +57,7 @@ a {
 }
 
 main {
-    padding: 20px 80px;
+    /* padding: 20px 80px; */
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Nav.module.css";
+import Link from "next/link";
 
 function Nav() {
   return (
@@ -13,25 +14,42 @@ function Nav() {
         />
       </div>
       <div className={styles.search}>
+        <Image
+          src="/assets/icons/search.svg"
+          alt="Search Icon"
+          width={20}
+          height={20}
+          className={styles.searchIcon}
+        />
         <input
           type="text"
           name="search"
           id="search"
-          placeholder="كيف يمكنني مساعدتك ؟"
+          placeholder="كيف يمكننا مساعدتك ؟"
         />
-        <div className={styles.lens}>🔎</div>
+        <div className={styles.lens}>
+          <Image
+            src="/assets/icons/search.svg"
+            alt="Search Icon"
+            width={20}
+            height={20}
+            className={styles.searchIcon}
+          />
+        </div>
       </div>
       <div className={styles.selector}>
         <div>فروعنا</div>
         <div>@ AR</div>
       </div>
       <div className={styles.logo}>
-        <Image
-          src="/assets/icons/logo/Logo.svg"
-          alt="Logo"
-          width={170}
-          height={60}
-        />
+        <Link href="/">
+          <Image
+            src="/assets/icons/logo/Logo.svg"
+            alt="Logo"
+            width={200}
+            height={70}
+          />
+        </Link>
       </div>
     </nav>
   );

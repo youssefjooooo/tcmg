@@ -31,10 +31,16 @@ function Footer() {
       <div className={styles.midSection}>
         <div className={styles.left}>
           <ul>
-            <li>توكيل محامي</li>
+            <Link href="hire-attorny" target="blank">
+              <li>توكيل محامي</li>
+            </Link>
             <li>تواصلو معنا</li>
-            <li>الخدمات القانونية</li>
-            <li>الإستشارات القانونية</li>
+            <Link href="legal-services">
+              <li>الخدمات القانونية</li>
+            </Link>
+            <Link href="legal-consultations">
+              <li>الإستشارات القانونية</li>
+            </Link>
           </ul>
         </div>
         <div className={styles.social}>
@@ -66,7 +72,9 @@ function Footer() {
         <div className={styles.right}>
           <ul>
             <li>فريق العمل</li>
-            <li>من نحن</li>
+            <Link href="about-us" target="_blank">
+              <li>من نحن</li>
+            </Link>
             <li>اخبار ورؤي</li>
           </ul>
         </div>
