@@ -1,5 +1,52 @@
+:root {
+    --main: #0D152C;
+    --font: #FFFFFF;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    direction: rtl;
+    font-family: janna reg;
+}
+
+::selection {
+    background-color: var(--font);
+    color: var(--main);
+}
+
+@font-face {
+    font-family: janna bol;
+    src: url(../public/assets/fonts/Janna\ LT\ Bold.ttf);
+}
+
+@font-face {
+    font-family: janna reg;
+    src: url(../public/assets/fonts/Janna\ LT\ Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--main);
+    color: var(--font);
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font);
+}
+
+main {
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
