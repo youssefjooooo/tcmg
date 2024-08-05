@@ -43,6 +43,7 @@ body {
     background-color: var(--main);
     color: var(--font);
     font-size: 18px;
+    overflow-x: hidden;
 }
 
 ul {

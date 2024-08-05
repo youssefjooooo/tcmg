@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./Nav.module.css";
 import Link from "next/link";
-
+import toggleSideNav from "@/utils/toggleSideNav";
 function Nav() {
   return (
     <nav className={styles.nav}>
-      <div className={styles.expand}>
+      <div className={styles.expand} onClick={toggleSideNav}>
         <Image
           src="/assets/icons/HamburgerMenu-1.svg"
           alt="Logo"

@@ -11,13 +11,12 @@
     background-image: url(/assets/images/Pattern.png);
     background-size: cover;
     background-position: center center;
-
 }
-
 
 .page h1,
 .page h2 {
     font-size: 50px;
+    line-height: 1.4;
 }
 
 .hero .content {
@@ -27,20 +26,28 @@
     justify-content: center;
     flex-direction: column;
     gap: 40px;
+    margin: 70px 0px;
+}
+
+.carousel {
+    height: 70vh;
 }
 
 .carousel .caroChild {
-
-
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 40px;
     padding-bottom: 100px;
+    animation: fade 1.5s ease-out;
 }
 
-.carousel span {
+.carousel .caroChild:last-child {
+    display: none;
+}
+
+.page span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +59,7 @@
     cursor: pointer;
 }
 
-.carousel span:hover {
+.page span:hover {
     gap: 20px;
     opacity: 80%;
 }
@@ -67,4 +74,58 @@
 
 .carousel .caroChild div p {
     width: 75%;
+}
+
+.whyUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+
+.scroll {
+    margin-bottom: 100px;
+}
+
+
+.right {
+    position: sticky;
+    top: 20vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.left {
+    padding-right: 50vw;
+}
+
+.left div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left div img {
+    border-radius: 10px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
 }
